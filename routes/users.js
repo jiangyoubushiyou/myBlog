@@ -4,6 +4,6 @@ var router = express.Router();
 router.get('/:name', function (req, res) {
     res.render('users', {
         name: req.params.name
-    });//ï¿½ï¿½ï¿½ï¿½res.renderï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¾ejsÄ£ï¿½å£¬res.render ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ users ï¿½ï¿½ï¿½Æ¥ï¿½ï¿½ views/users.ejs
-});//res.render ï¿½ï¿½ï¿½ï¿½ï¿½Ã¾ï¿½ï¿½Ç½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½İ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ html
+    });//µ÷ÓÃres.renderº¯ÊıäÖÈ¾ejsÄ£°å£¬res.render µÚÒ»¸ö²ÎÊıÊÇÄ£°åµÄÃû×Ö£¬ÕâÀïÊÇ users Ôò»áÆ¥Åä views/users.ejs
+});//res.render µÄ×÷ÓÃ¾ÍÊÇ½«Ä£°åºÍÊı¾İ½áºÏÉú³É html
 module.exports = router;
